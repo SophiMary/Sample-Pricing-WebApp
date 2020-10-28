@@ -1,0 +1,31 @@
+.pricing {
+	padding: 60px;
+	text-align: center;
+}
+
+.section-heading {
+	margin: 10px;
+	cursor: pointer;
+	background-color: #23272b;
+	color: #fff;
+	padding: 15px;
+}
+
+.display {
+	display: none;
+}
+
+.column-pricing {
+	padding: 2% 3%;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+input,
+textarea, button {
+	width: 100%;
+	margin-top: 10px;
+}
