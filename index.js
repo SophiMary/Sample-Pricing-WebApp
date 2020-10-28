@@ -21,7 +21,8 @@ form.addEventListener("submit", (e) => {
 		.then((response) => {
 			console.log("Success!", response.status);
 			alert("Data Successfully Submitted");
-			window.location.href = "/index.html";
+			window.location.href =
+				"/Sample-Pricing-WebApp/";
 		})
 		.catch((error) => console.error("Error!", error.message));
 });
