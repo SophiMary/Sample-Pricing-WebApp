@@ -100,28 +100,31 @@
 					class="form-container display"
 				>
 					<input
-						class="form-control"
+						class="form-control name"
 						type="text"
 						placeholder="Name"
 						name="name"
 						autocomplete="off"
 						required
+						onchange="profanityCheckName()"
 					/>
 					<input
-						class="form-control"
+						class="form-control email"
 						type="email"
 						placeholder="Email"
 						name="email"
 						autocomplete="off"
 						required
+						onchange="profanityCheckEmail()"
 					/>
 
 					<textarea
-						class="form-control"
+						class="form-control text"
 						rows="4"
 						cols="60"
 						placeholder="Order Comments"
 						name="comments"
+						onchange="profanityCheckText()"
 					></textarea>
 					<button class="btn btn-dark">Submit</button>
 				</form>
